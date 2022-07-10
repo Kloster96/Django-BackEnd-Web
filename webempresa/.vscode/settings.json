@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "C:\\Users\\lucho\\.virtualevens\\Django_Curso-uxsV-bKv\\Scripts\\python.exe",   /* Adaptar esta línea */
+    "python.linting.enabled": true,  
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintEnabled": false,
+    "python.languageServer": "Pylance",
+    "python.linting.pycodestyleEnabled": true, 
+    "python.analysis.useImportHeuristic": true,     
+    "python.linting.pycodestyleArgs": ["--ignore=E501,E226,E116"],
+    "python.formatting.autopep8Args": [
+        "--max-line-length=200"
+    ],
+    "python.linting.pylamaArgs": [
+        "\"python.linting.pylintArgs\": [         \"--errors-only\",         \"--load-plugins\",         \"pylint_django\"     ]"
+    ]
+}
